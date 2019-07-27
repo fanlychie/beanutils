@@ -13,12 +13,11 @@ jobs:
           keys:
             - beanutils-dependencies-{{ checksum "pom.xml" }} # 重新缓存依赖(如果pom.xml文件更改过)
             - beanutils-dependencies- # 否则使用上次缓存的依赖
-      - run: mvn dependency:go-offline # 下载依赖
       - save_cache:
           paths:
             - ~/.m2 # 依赖存储路径
           key: beanutils-dependencies-{{ checksum "pom.xml" }} # 缓存的Key
-      - run: mvn clean -Dmaven.test.skip=true -Dmaven.javadoc.skip=true package # 构建项目
+      - run: mvn clean dependency:go-offline -Dmaven.test.skip=true -Dmaven.javadoc.skip=true package # 构建项目
 
 workflows:
   version: 2
