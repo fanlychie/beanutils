@@ -5,6 +5,8 @@
     基于反射实现的用于操纵 Bean 的工具&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
+[![codecov](https://codecov.io/gh/fanlychie/beanutils/branch/master/graph/badge.svg)](https://codecov.io/gh/fanlychie/beanutils)
+
 ---
 
 ## 依赖声明
