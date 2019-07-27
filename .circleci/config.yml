@@ -21,3 +21,9 @@ jobs:
             - ~/.m2 # 依赖存储路径
           key: ${project_name}-dependencies-{{ checksum "pom.xml" }} # 缓存的Key
       - run: mvn clean -Dmaven.test.skip=true -Dmaven.javadoc.skip=true package # 构建项目
+
+workflows:
+  version: 2
+  workflow:
+    jobs:
+      - build
