@@ -1,12 +1,22 @@
 # Java Maven CircleCI 2.0 configuration file (Check https://circleci.com/docs/2.0/language-java/ for more details)
-
 version: 2 # circle-ci 版本
-
+# 作业配置
 jobs:
   build:
     docker:
-      - image: circleci/openjdk:8-jdk-stretch # 容器
-    working_directory: ~/workspace/beanutils # 工作目录
+      - image: circleci/openjdk:8u181-jdk # 容器
+    environment:
+      project_name: beanutils
+    working_directory: ~/workspace/${project_name} # 工作目录
     steps:
       - checkout # 检查代码到工作目录
-      - run: mvn clean -Dmaven.test.skip=true -Dmaven.javadoc.skip=true package
+      - restore_cache:
+          keys:
+            - ${project_name}-dependencies-{{ checksum "pom.xml" }} # 重新缓存依赖(如果pom.xml文件更改过)
+            - ${project_name}-dependencies- # 否则使用上次缓存的依赖
+      - run: mvn dependency:go-offline # 下载依赖
+      - save_cache:
+          paths:
+            - ~/.m2 # 依赖存储路径
+          key: ${project_name}-dependencies-{{ checksum "pom.xml" }} # 缓存的Key
+      - run: mvn clean -Dmaven.test.skip=true -Dmaven.javadoc.skip=true package # 构建项目
