@@ -1,0 +1,12 @@
+# Java Maven CircleCI 2.0 configuration file (Check https://circleci.com/docs/2.0/language-java/ for more details)
+
+version: 2 # circle-ci 版本
+
+jobs:
+  build:
+    docker:
+      - image: circleci/openjdk:8u181-jdk # 容器
+    working_directory: ~/workspace/beanutils # 工作目录
+    steps:
+      - checkout # 检查代码到工作目录
+      - run: mvn clean -Dmaven.test.skip=true -Dmaven.javadoc.skip=true package
