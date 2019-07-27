@@ -5,8 +5,8 @@
     基于反射实现的用于操纵 Bean 的工具&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-[![codecov](https://codecov.io/gh/fanlychie/beanutils/branch/master/graph/badge.svg)](https://codecov.io/gh/fanlychie/beanutils)
 [![circleci](https://circleci.com/gh/fanlychie/beanutils.svg?style=shield&circle-token=0b453fff6a72005edb7f84605ff4ab1756c2a2b3)](https://circleci.com/gh/fanlychie/beanutils)
+[![codecov](https://codecov.io/gh/fanlychie/beanutils/branch/master/graph/badge.svg)](https://codecov.io/gh/fanlychie/beanutils)
 ---
 
 ## 依赖声明
