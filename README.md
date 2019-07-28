@@ -1,14 +1,25 @@
 <p align="center">
-    <a href="#"><img src="https://raw.githubusercontent.com/fanlychie/mdimg/master/beanutils.png"></a>
+    <a href="#">
+        <img src="https://raw.githubusercontent.com/fanlychie/mdimg/master/beanutils_logo_img.png">
+    </a>
 </p>
 <p align="center">
-    基于反射实现的用于操纵 Bean 的工具&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    基于反射实现的用于操纵 Bean 的工具
 </p>
-
-[![circleci](https://circleci.com/gh/fanlychie/beanutils.svg?style=svg&circle-token=1173052afd21856384d886a4aac200286199cc15)](https://circleci.com/gh/fanlychie/beanutils)
-[![codecov](https://codecov.io/gh/fanlychie/beanutils/branch/master/graph/badge.svg)](https://codecov.io/gh/fanlychie/beanutils)
-[![codacy](https://api.codacy.com/project/badge/Grade/5ff9303ddee34d3c96c56f8309c34960)](https://www.codacy.com/app/fanlychie/beanutils?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fanlychie/beanutils&amp;utm_campaign=Badge_Grade)
-![license](https://img.shields.io/github/license/fanlychie/beanutils.svg)
+<p align="center">
+    <a href="https://circleci.com/gh/fanlychie/beanutils" target="_blank" title="Circle CI">
+        <img src="https://circleci.com/gh/fanlychie/beanutils.svg?style=svg&circle-token=1173052afd21856384d886a4aac200286199cc15">
+    </a>
+    <a href="https://codecov.io/gh/fanlychie/beanutils" target="_blank" title="Codecov">
+        <img src="https://codecov.io/gh/fanlychie/beanutils/branch/master/graph/badge.svg">
+    </a>
+    <a href="https://www.codacy.com/app/fanlychie/beanutils?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fanlychie/beanutils&amp;utm_campaign=Badge_Grade" target="_blank" title="Codacy">
+        <img src="https://api.codacy.com/project/badge/Grade/5ff9303ddee34d3c96c56f8309c34960">
+    </a>
+    <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="License">
+        <img src="https://img.shields.io/github/license/fanlychie/beanutils.svg">
+    </a>
+</p>
 
 ---
 
