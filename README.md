@@ -19,6 +19,9 @@
     <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="License">
         <img src="https://img.shields.io/github/license/fanlychie/beanutils.svg">
     </a>
+    <a href="https://jitpack.io/#fanlychie/beanutils" target="_blank" title="Jitpack">
+        <img src="https://jitpack.io/v/fanlychie/beanutils.svg">
+    </a>
 </p>
 
 ---
