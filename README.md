@@ -41,7 +41,7 @@
     <dependency>
         <groupId>com.github.fanlychie</groupId>
         <artifactId>beanutils</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </dependency>
 </dependencies>
 ```
