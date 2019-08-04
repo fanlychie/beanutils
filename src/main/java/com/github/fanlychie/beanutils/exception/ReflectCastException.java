@@ -1,4 +1,4 @@
-package org.fanlychie.beanutils.exception;
+package com.github.fanlychie.beanutils.exception;
 
 /**
  * 运行时异常, 它内部包装了真实的非运行时异常对象, 通过getCause来取出真实异常

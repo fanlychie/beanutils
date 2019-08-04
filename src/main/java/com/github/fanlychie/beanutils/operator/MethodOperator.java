@@ -1,7 +1,7 @@
-package org.fanlychie.beanutils.operator;
+package com.github.fanlychie.beanutils.operator;
 
-import org.fanlychie.beanutils.exception.ReflectCastException;
-import org.fanlychie.beanutils.util.MethodSignatureUtils;
+import com.github.fanlychie.beanutils.exception.ReflectCastException;
+import com.github.fanlychie.beanutils.util.MethodSignatureUtils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

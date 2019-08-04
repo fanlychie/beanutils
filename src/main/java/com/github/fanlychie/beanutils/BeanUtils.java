@@ -1,8 +1,8 @@
-package org.fanlychie.beanutils;
+package com.github.fanlychie.beanutils;
 
-import org.fanlychie.beanutils.operator.ConstructorOperator;
-import org.fanlychie.beanutils.operator.FieldOperator;
-import org.fanlychie.beanutils.operator.MethodOperator;
+import com.github.fanlychie.beanutils.operator.ConstructorOperator;
+import com.github.fanlychie.beanutils.operator.FieldOperator;
+import com.github.fanlychie.beanutils.operator.MethodOperator;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

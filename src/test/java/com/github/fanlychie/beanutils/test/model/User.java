@@ -1,4 +1,4 @@
-package org.fanlychie.beanutils.test.model;
+package com.github.fanlychie.beanutils.test.model;
 
 public class User {
 

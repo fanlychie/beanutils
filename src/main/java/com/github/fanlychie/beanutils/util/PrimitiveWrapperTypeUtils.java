@@ -1,4 +1,4 @@
-package org.fanlychie.beanutils.util;
+package com.github.fanlychie.beanutils.util;
 
 import java.util.HashMap;
 import java.util.Map;

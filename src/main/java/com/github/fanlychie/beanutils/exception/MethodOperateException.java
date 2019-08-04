@@ -1,4 +1,4 @@
-package org.fanlychie.beanutils.exception;
+package com.github.fanlychie.beanutils.exception;
 
 /**
  * 方法操作异常

@@ -1,6 +1,6 @@
-package org.fanlychie.beanutils.util;
+package com.github.fanlychie.beanutils.util;
 
-import org.fanlychie.beanutils.exception.MethodOperateException;
+import com.github.fanlychie.beanutils.exception.MethodOperateException;
 
 /**
  * 方法签名工具类

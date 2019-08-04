@@ -1,9 +1,9 @@
-package org.fanlychie.beanutils.test;
+package com.github.fanlychie.beanutils.test;
 
-import org.fanlychie.beanutils.BeanUtils;
-import org.fanlychie.beanutils.operator.FieldOperator;
-import org.fanlychie.beanutils.operator.MethodOperator;
-import org.fanlychie.beanutils.test.model.User;
+import com.github.fanlychie.beanutils.BeanUtils;
+import com.github.fanlychie.beanutils.operator.FieldOperator;
+import com.github.fanlychie.beanutils.operator.MethodOperator;
+import com.github.fanlychie.beanutils.test.model.User;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;

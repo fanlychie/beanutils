@@ -1,8 +1,8 @@
-package org.fanlychie.beanutils.operator;
+package com.github.fanlychie.beanutils.operator;
 
-import org.fanlychie.beanutils.exception.FieldOperateException;
-import org.fanlychie.beanutils.exception.ReflectCastException;
-import org.fanlychie.beanutils.util.PrimitiveWrapperTypeUtils;
+import com.github.fanlychie.beanutils.exception.FieldOperateException;
+import com.github.fanlychie.beanutils.exception.ReflectCastException;
+import com.github.fanlychie.beanutils.util.PrimitiveWrapperTypeUtils;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
