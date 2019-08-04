@@ -31,15 +31,15 @@
 ```xml
 <repositories>
     <repository>
-        <id>fanlychie-maven-repo</id>
-        <url>https://raw.github.com/fanlychie/maven-repo/releases</url>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
     </repository>
 </repositories>
 
 <dependencies>
     ... ...
     <dependency>
-        <groupId>org.fanlychie</groupId>
+        <groupId>com.github.fanlychie</groupId>
         <artifactId>beanutils</artifactId>
         <version>1.0.0</version>
     </dependency>
